@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 :root { font-family: 'DM Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #162235; background: #f5f7fb; font-synthesis: none; text-rendering: optimizeLegibility; }
 * { box-sizing: border-box; }
@@ -68,3 +68,13 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
 .empty-state { display: grid; place-items: center; gap: 10px; padding: 48px 20px; border: 1px dashed #cfd8e7; border-radius: 12px; background: rgba(255,255,255,.65); color: #738199; text-align: center; font-size: 13px; }
   .empty-state strong { color: #253653; font-family: 'Space Grotesk', sans-serif; font-size: 16px; }
   @media (max-width: 760px) { .services-section { align-items: stretch; flex-direction: column; margin-right: 0; margin-left: 0; margin-bottom: 50px; padding: 22px; }.service-link { min-width: 0; } }
+
+[dir="rtl"] { font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif; }
+[dir="rtl"] .brand-lockup, [dir="rtl"] .hero-copy h1, [dir="rtl"] h2, [dir="rtl"] .progress-ring strong, [dir="rtl"] .work-main h3, [dir="rtl"] .bundle-card h3 { font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif; letter-spacing: 0; }
+[dir="rtl"] .eyebrow, [dir="rtl"] .card-kicker, [dir="rtl"] .detail-label, [dir="rtl"] .phase-label, [dir="rtl"] .done-label { letter-spacing: 0; }
+[dir="rtl"] .outcome-callout { border-left: 0; border-right: 2px solid #2c6cec; padding: 5px 18px 5px 0; }
+[dir="rtl"] .phase-tab { text-align: right; border-right: 0; border-left: 1px solid #e4e8f0; }
+[dir="rtl"] .phase-tab:first-child { border-left: 1px solid #e4e8f0; }
+[dir="rtl"] .founder-card { margin-left: 2.5vw; margin-right: auto; }
+[dir="rtl"] .service-link small { direction: ltr; text-align: right; }
+
